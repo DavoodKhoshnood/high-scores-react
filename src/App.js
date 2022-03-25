@@ -1,13 +1,9 @@
-import './App.css';
+import allCountryScores from './scores.js'
+import HighScore from './HighScore.js'
+import './App.css'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-high-scores-react
-      </header>
-    </div>
-  );
+  return <HighScore scores={allCountryScores} />
 }
 
-export default App;
+export default App
