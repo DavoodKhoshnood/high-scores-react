@@ -52,9 +52,16 @@
   align-items: center;
 }
 
+.numbers{
+  color: rgb(251, 1, 1);
+  text-align: right;
+
+}
+
 table {
   text-align: center;
 }
+
 td {
   padding: 5px 30px;
 }

@@ -19,8 +19,7 @@ const HighScores = (props) => {
                   return (
                     <tr key={index}>
                       <td>{player.n}</td>
-                      <td>{' '}</td>
-                      <td>{player.s}</td>
+                      <td className='numbers'>{parseInt(player.s).toLocaleString()}</td>
                     </tr>
                   )
                 })}
